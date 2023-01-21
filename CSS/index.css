@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+li a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300px;
+    color: black;
+}
+
+
+header{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 20px 3%;   
+    
+}
+
+.logo{
+    cursor: pointer;
+    width: 100px;
+}
+
+.navlinks{
+    list-style: none;
+
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+
+.navlinks li a{
+    transition: all .3s ease 0s;
+}
+
+.navlinks li a:hover{
+    transition: all .3s ease 0s;
+}
+
+.navlinks li a{
+
+    background-color: white;
+    padding: 9px 25px;
+    border-radius: 10px;
+    
+}
+
+.navlinks li a:hover{
+    background-color: #826268;
+    color: white;
+}
+
+.imageofme{
+    display: flex;
+    float: right; 
+    padding: 20px 4.5%;
+    
+}
+
+.myName{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-150%) translateX(-20%);
+    font-size:x-large;
+    background-color: #826268;
+    background-image: linear-gradient(45deg, #826268, #CCA2A2);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+
+.lineskill{
+    padding: 30px;
+    width: 1470px;
+    justify-content:center;
+    align-self:center;
+    display: flex;
+    transform: translateY(75px);
+}
+
+hr{
+    margin:0 5%;
+    transform: translateY(60px);
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    width: 85%;
+    list-style-type: none;
+    transform: translateY(70px) translateX(100px);
+}
+
+.threeImg{
+    flex: 33.33%;
+    padding: 5px;
+
+}
+
+.text{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform: translateX(-109px) translateY(10px);
+}
+
+.para{
+    display: block;
+    justify-content:right;
+    padding: 20px;
+    height: 90px;
+    background-color:#826268;
+    border-color: #826268;
+    transform: translateX(-65px) translateY(15px);
+    width: 350px;
+}
+
+.projectImg1{
+    background-color: #826268;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 960px;
+    margin: 40px;
+    transform: translateX(200px) translateY(50px)
+
+}
+
+.projectImg2{
+    background-color: #826268;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 960px;
+    margin: 40px;
+    transform: translateX(200px) translateY(50px)
+
+}
+ 
+.depofE{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-size: 30px;
+    transform: translateX(50px);
+    width: 1000px;
+   
+}
+
+.proj1{
+    transform: translateX(50px);
+}
+
+.para1{
+    max-lines: 5;
+    line-height: 1.1 ;
+
+    max-height: calc( var(max-lines) * 1em * var(line-height));
+    line-height: var(line-height);
+    position: relative;
+
+    transform: translate(-400px,60px);
+
+
+    /* display:-webkit-box;
+    justify-content: left;
+    text-align: left;
+    transform: translate(-200px,70px);
+    background-color: aliceblue;
+    --max-lines: 3; 
+    -webkit-box-orient: horizontal; */
+}
+
+.proj2{
+    transform: translateX(-60px);
+}
+
+.modNeed{
+    display: flex;
+    justify-content: center;
+    text-align: Center;
+    font-size: 30px;
+    transform: translateX(50px);
+    width: 1000px;
+}
+
+.para2{
+    display:flex;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    transform: translateY(50px) translateX(-330px);
+}
+
+.VAP{
+    padding: 20px;
+    justify-content:center;
+    align-self:center;
+    display: flex;
+    transform: translateY(65px) translateX(145px);
+    font-size: 30px;
+    border-color: #826268;
+    height: 80px;
+    width: 1200px;
+}
+
+
+.Come{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(90px);
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    transform: translateY(80px) translateX(646px);
+}
